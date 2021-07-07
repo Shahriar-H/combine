@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYSTAL FINANCE</title>
+    <link rel="stylesheet" href="./font awsome css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="responsivecss.css">
+    <style>
+        body{
+            background: radial-gradient(50% 50%, #161d6b 0%, #0B0F3C 87%);           
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            font-family: open sans, sans-serif;   
+            height: 110vh; 
+            position: relative;    
+            }
+        header{
+            padding: 0px 50px;
+
+        }
+        .btn button{
+            padding: 8px 30px;
+            border-radius: 4px;
+            background-image: linear-gradient(#04fc9c,#04fc9c);
+            border: none;
+        }
+        .boxbtn1{
+            padding: 7px 25px;
+            border-radius: 4px;
+            background-image: linear-gradient(#04fc9c,#04fc9c);
+            border: none;
+            margin-top: 33px;
+        }
+        .boxbtn2{
+            padding: 6px 20px;
+            border-radius: 4px;
+            background-image: linear-gradient(#04fc9c,#04fc9c);
+            border: none;
+            margin-top: 33px;
+        }
+        .boxbtn3{
+            padding: 5px 20px;
+            border-radius: 4px;
+            background-color: transparent;
+            border: 1px solid#04fc9c ;
+            margin-top: 33px;
+            color: white;
+        }
+        .btn{
+            text-align: right;
+            padding-top: 30px;
+        }
+        .optio ul li{
+            padding: 10px 15px;
+        }
+        .scial ul li{
+            padding: 0 20px;
+        }
+        .curser_point:hover{
+            cursor: pointer;
+            color:#04fc9c ;
+        }
+        .curser_point1:hover{
+            background-image: linear-gradient(rgb(25, 196, 62),rgb(25, 196, 62));
+            cursor: pointer;
+            transition: .4s ease-in-out;
+        }
+
+        .mobileoption{
+            position: fixed;
+            background-color: rgb(246, 248, 246);
+            height:85vh ;
+            width: 100%;
+            top: 90px;
+            margin: auto;
+            border: 2px solid green;
+            display: none;
+        }
+        .mobileoption1{
+            position: fixed;
+            background-color: rgba(7, 7, 7, 0.447);
+            height:150vh ;
+            width: 100%;
+            top: 0px;
+            margin: auto;
+            display: none;
+        }
+        .pop{
+            height: 150px;
+            width: 80%;
+            background-color: rgb(1, 36, 56) ;
+            margin: auto;
+            margin-top: 300px;
+            box-shadow: rgba(56, 56, 56, 0.575) 8px 8px 9px 2px;
+            border-radius: 4px;
+            
+        }
+        .pop i:hover{
+            cursor: pointer;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <header style="display: inline-flex; width: 90%;">
+        <div class="logo" style="width: 33.3%;">
+            <a href="#" class="curser_point"><img src="./llogo.png" alt="" style="max-width: 180px; margin-top: -12px;"></a>
+        </div>
+        <div class="optio blc1" style="width: 33.3%; text-align: right;">
+            <ul style="list-style-type: none; display: flex; font-size: 23px; color: white; padding: 0; float: right;">
+                <li class="curser_point" style="color: #d9fff0;">Home</li>
+                <li class="curser_point">Stake</li>
+                <li class="curser_point">About</li>
+                <li class="curser_point">Exchange</li>
+            </ul>
+        </div>
+        <div class="btn mnav " style="width: 33.3%;">
+            <button class="curser_point1 blc1" id="open1">My Wallet</button>
+            <i class="fas fa-bars curser_point icon icon1" id="add1" onclick="opennav()" style="color: white; text-align: right; "></i>
+            <i class="fas fa-times curser_point icon icon2" id="add2"  onclick="closenav()" style="color: white; text-align: right; "></i>
+
+        </div>
+    </header>
+    <hr style="color: rgba(219, 218, 218, 0.678); height: 0px; margin-top: -10px;">
+
+    <div class="mainhead" style="padding-top:60px ; padding-left: 216px; padding-right: 200px;">
+        <h1 style="margin-bottom:0;font-size: 40px; text-transform: uppercase; font-weight: 600; color: #04fc9c; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Claim Your Very own  CRSTL</h1>
+        <p style="padding: 0; margin: 0; color: white; font-size: 20px; font-family: Arial, Helvetica, sans-serif;">Stake Uniswap LP Tokens</p>
+    </div>
+    <div class="boxex" style="padding-left: 200px; padding-right: 200px; width: 77%; padding-top: 30px; display: inline-flex;">
+        
+        <div class="box3" style="width: 37%;  height: 270px;margin: 13px; ">
+            <div class="box31" style="height: 48%; background-color: #10122d; margin-bottom: 10px; box-shadow: rgba(0, 0, 0, 0.3) 8px 8px 9px 2px;border-radius: 8px;">
+                <div class="boxtext" style=" color: white;">
+                    <p style="margin: 0; padding: 0; padding-top: 30px; padding-left: 30px;">Total Locked Value</p>
+                    <h1 style="margin: 0; margin-top: 5px; padding: 0; padding-left: 30px;">3,000<span style="color: grey; font-size: 25px;"> CRSTL</span></h1>
+                    <p style="margin: 0; padding: 0; padding-top: 5px; padding-left: 30px; font-size: 16px;">Current emission rate ~39 CRSTL/day</p>
+                </div>
+            </div>
+            <div class="box32" style="height: 48%; background-color:  #10122d; margin-top: 10px;box-shadow: rgba(0, 0, 0, 0.3) 8px 8px 9px 2px;border-radius: 8px;">
+                <div class="boxtext" style=" color: white;">
+                    <p style="margin: 0; padding: 0; padding-top: 30px; padding-left: 30px;">Total Locked Value</p>
+                    <h1 style="margin: 0; margin-top: 10px; padding: 0;padding-left: 30px;">2,250.28 <i class="fas fa-bars" style="color: grey; font-size: 25px; margin-left: 3px;"></i></h1>
+                </div>
+
+            </div>
+
+
+        </div>
+        
+        <div class="box1" style="width: 26%; height: 270px; background-color: #10122d; margin: 13px; box-shadow: rgba(0, 0, 0, 0.3) 8px 8px 9px 2px; border-radius: 8px;">
+            <img src="./favicon.png" alt="" style="max-width: 30px; margin: 20px;">
+            <div class="boxtext" style="margin: 30px; color: white; margin-top: 0;">
+                <p style="margin: 0; padding: 0;">Your Balance</p>
+                <h1 style="margin: 0; margin-top: 10px; padding: 0;">30<span style="color: grey; font-size: 25px;"> CRSTL</span></h1>
+                <h4 style="margin: 0; padding: 0; margin-top: 10px;">Unclaimed : 0.000<span style="color: grey; font-size: 17px;"> CRSTL</span></h4>
+                <button class="boxbtn1 curser_point1" id="open2">Start Earnings</button>
+
+            </div>
+        </div>
+        <div class="box2" style="width: 26%;  height: 270px; background-color: #10122d;margin: 13px; box-shadow: rgba(24, 24, 24, 0.3) 8px 8px 9px 2px;border-radius: 8px;">
+            <img src="./favicon.png" alt="" style="max-width: 30px; margin: 20px; ">
+            <div class="boxtext" style="margin: 30px; color: white; margin-top: 0;">
+                <p style="margin: 0; padding: 0;">CRSTL Price</p>
+                <h1 style="margin: 0; margin-top: 10px; padding: 0;">0.18<span style="color: grey; font-size: 25px;"> ETH</span></h1>
+                <!--<h1 style="margin: 0; margin-top: 10px; padding: 0;">0.33<i class="fas fa-bars" style="color: grey; font-size: 25px; margin-left: 3px;"></i></h1>-->
+                <h4 style="margin: 0; padding: 0; margin-top: 10px;">LP : 411.83 <i class="fas fa-bars" style="color: grey; font-size: 15px; margin-left: 3px;"></i> / 1,233<span style="color: grey; font-size: 17px;"> CRSTL</span></h4>
+                <button  class="boxbtn2 curser_point1" id="open3">Trade</button>
+                <button  class="boxbtn3 curser_point1" id="open4">Pool</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <hr style="color: rgba(219, 218, 218, 0.678); height: 0px; margin-top: 100px; margin-bottom: 30px;">
+    <div class="fot" style="width: 90%; display: inline-flex; margin-top: -20px;">
+        <div class="sign" style="width: 50%;margin: 0 90px;">
+            <img class="curser_point" src="./llogo.png" style="max-width: 140px; margin-top: -20px;" alt="">
+        </div>
+        <div class="scial" style="width: 50%;margin-top: -7px;">
+            <ul style=" list-style-type: none; display: flex; float: right;">
+                
+                <li><a class="curser_point" href="https://t.me/cometfinance"><i class="fab fa-telegram-plane fa-2x" style="color: white; font-size: 24px;"></i></a></li>
+                <li><a class="curser_point" href="https://twitter.com/CometFinance"><i class="fab fa-twitter fa-2x" style="color: white; font-size: 24px;"></i></a></li> 
+                <li><a class="curser_point" href="https://discord.gg/Q7MgeKB"><i class="fab fa-discord fa-2x" style="color: white; font-size: 24px;"></i></a></li> 
+                <li><a class="curser_point" href="https://medium.com/@cometfinance.net"><i class="fab fa-medium-m fa-2x" style="color: white; font-size: 24px;"></i></a></li> 
+                <li><a class="curser_point" href="https://github.com/comet-finance"><i class="fab fa-github fa-2x" style="color: white; font-size: 24px;"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="mobileoption" id="navigat">
+        <div class="optio" style="width: 33.3%; text-align: right;">
+            <ul class="mul" style="list-style-type: none; font-size: 30px; padding: 0; ">
+                <li class="curser_point" style="color: #04fc9c;">Home</li>
+                <li class="curser_point">Stake</li>
+                <li class="curser_point">About</li>
+                <li class="curser_point">Exchange</li>
+            </ul>
+        </div>
+        <div class="btn mnav " style="width: 33.3%;">
+            <button class="curser_point1 " id="open5">My Wallet</button>
+        </div>
+    </section>
+    <section class="mobileoption1" id="popclose">
+        <div class="pop">
+            <i onclick="popclose()" class="fas fa-times fa-1x" style="color: white; float: right; margin-top: -15px;margin-right: -10px; padding: 7px 9px; background-color: rgb(252, 2, 2);border-radius: 50%;"></i>
+            <h2 style="text-align: center; color:#04fc9c ; padding-top: 13%;">Platform will be active after Presale</h2>
+        </div>
+    </section>
+
+    
+<script type="text/javascript">
+
+function opennav(){
+    document.getElementById('navigat').style.display="block";
+    document.getElementById('add1').style.display="none";
+    document.getElementById('add2').style.display="block";
+
+
+}
+function closenav(){
+    document.getElementById('navigat').style.display="none";
+    document.getElementById('add1').style.display="block";
+    document.getElementById('add2').style.display="none";
+
+
+}
+function popclose(){
+    document.getElementById('popclose').style.display="none";
+}
+
+document.getElementById("open1").addEventListener("click",function(){
+    document.getElementById('popclose').style.display="block";
+
+});
+document.getElementById("open2").addEventListener("click",function(){
+    document.getElementById('popclose').style.display="block";
+
+});
+document.getElementById("open3").addEventListener("click",function(){
+    document.getElementById('popclose').style.display="block";
+
+});
+document.getElementById("open4").addEventListener("click",function(){
+    document.getElementById('popclose').style.display="block";
+
+});
+document.getElementById("open5").addEventListener("click",function(){
+    document.getElementById('popclose').style.display="block";
+
+});
+
+</script>
+    
+</body>
+</html>

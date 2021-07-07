@@ -1,0 +1,13 @@
+.icon{
+    display: none;
+}
+.mul{
+    float: none !important;
+    color: black !important;
+    margin-left: 50px;
+    text-align: left;
+
+}
+.mul li{
+    text-align: left;
+}

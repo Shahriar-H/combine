@@ -1,0 +1,157 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+    #navigat{
+        display: none ;
+    }
+    .mainhead{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        text-align: center !important;
+        padding-top: 160px !important;
+
+
+    }
+    .mainhead p, .mainhead h1{
+        text-align: left !important;
+        margin-left: 19% !important;
+    }
+    .boxex{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        display: inline-block !important;
+        width: 100% !important;
+        max-width: 900px !important;
+        margin: auto !important;
+    }
+        header{
+        position: fixed !important;
+        background: radial-gradient(50% 50%, #161d6b 0%, #0B0F3C 87%) !important;           
+
+    }
+    .box3{
+        width: 60% !important;
+        margin: auto !important;
+        margin-bottom: 30px !important;
+    }
+    .box1,.box2{
+        width: 60% !important;
+        margin: auto !important;
+        margin-bottom: 30px !important;
+
+    }
+    body{
+        overflow-y: scroll !important;
+        height: 150vh !important;
+        overflow-x:hidden !important;
+    }
+    .fot{
+        display: inline-block !important;
+        max-width: 900px !important;
+        margin: auto !important;
+        margin-top: -30px !important;
+        padding-bottom:25px !important;
+    }
+    .sign{
+        width: 50px !important;
+        margin: auto !important;
+    }
+    .scial ul{
+        width: 120px !important;
+        margin: auto !important;
+    }
+    .blc1{
+        display: none;
+    }
+    .logo a img{
+        margin-left: -20px !important;
+        margin-top: 3px !important;
+    
+}
+.mnav{
+    width: 59% !important;
+}
+.mnav i{
+    font-size: 30px;
+}
+.icon{
+    display: block ;
+}
+#add2{
+    display: block ;
+}
+#add2{
+    display: none ;
+}
+
+}
+@media only screen and (min-width:200px) and (max-width:497px){
+
+    .box1,.box2,.box3{
+        width: 80% !important;
+    }
+    .mainhead p, .mainhead h1{
+        margin-left: 15% !important;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:457px){
+
+    .box1,.box2,.box3{
+        width: 80% !important;
+    }
+    .mainhead p, .mainhead h1{
+        margin-left: 8% !important;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:413px){
+
+    .box1,.box2,.box3{
+        width: 85% !important;
+    }
+    .mainhead h1{
+        font-size: 30px !important;
+    }
+    .logo a img{
+            max-width: 150px !important;
+            margin-left: -30px !important;
+        
+    }
+    .fot{
+        width: 100% !important;
+    }
+    .sign{
+        width: 47% !important;
+        margin-top: 20px !important;
+
+    }
+    .scial{
+        width: 37% !important;
+    }
+    .mnav i{
+        margin-top: -10px !important;
+        margin-right: 20px;
+    }
+    .mainhead p, .mainhead h1{
+        margin-left: 10% !important;
+    }
+ 
+
+
+}
+@media only screen and (min-width:200px) and (max-width:373px){
+
+    .box1,.box2,.box3{
+        width: 90% !important;
+    }
+    .box31 {
+        height: 54% !important;
+    }
+    .mnav i{
+        margin-top: -10px !important;
+        margin-right: 20px;
+    }
+    .mainhead p, .mainhead h1{
+        margin-left: 8% !important;
+    }
+
+}
+
